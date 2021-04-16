@@ -134,4 +134,3 @@ result = sm.ols(formula="ret_usd ~ sentiment_ratio", data=final).fit()  # OLS re
 print(result.params)
 print(result.summary())
 
-Print test
