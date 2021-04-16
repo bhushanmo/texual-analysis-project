@@ -133,3 +133,5 @@ print("correlation coefficient:", corr)
 result = sm.ols(formula="ret_usd ~ sentiment_ratio", data=final).fit()  # OLS regression
 print(result.params)
 print(result.summary())
+
+Print test
